@@ -22,3 +22,6 @@ How to get redux-saga into Leaflet app
 - start with const import for leaflet layer
 - then use thunk 
 - then use saga
+
+OTHER NOTES:
+Basemaps - https://leaflet-extras.github.io/leaflet-providers/preview/
