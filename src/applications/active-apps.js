@@ -1,4 +1,4 @@
-export const prospectApps = [
+export const activeApps = [
   {
     "lat_lon": [37.77, -122.42],
     "message": "San Francisco"
