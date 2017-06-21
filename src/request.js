@@ -1,13 +1,21 @@
 // import 'whatwg-fetch';
 // import { call } from 'redux-saga/effects';
 import { activeApps } from './applications/active-apps';
+import { fundedApps } from './applications/funded-apps';
 
 // const DEFAULT_HEADERS = {
 //   'Content-Type': 'application/json',
 // };
 
-export function request() {
-  return { json: activeApps }
+export function request(url) {
+  switch (url) {
+    case 'active':
+      return { json: activeApps }
+    case 'funded':
+      return { json: fundedApps}
+    default:
+      return { json: [] }
+  }
 }
 
 // export function* request(url, params, headers) {

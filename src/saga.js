@@ -18,8 +18,22 @@ function* watchFetchActiveApplications() {
   yield call(takeLatest, actionTypes.FETCH_ACTIVE_APPLICATIONS, fetchActiveApplications);
 }
 
+export function* fetchFundedApplications(action) {
+  try {
+    const response = yield call(api.fetchFundedApplications);
+    yield put(actions.receiveFundedApplications(response));
+  } catch (e) {
+    yield put(actions.receiveFundedApplications([]));
+  }
+}
+
+function* watchFetchFundedApplications() {
+  yield call(takeLatest, actionTypes.FETCH_FUNDED_APPLICATIONS, fetchFundedApplications);
+}
+
 export default function* fetchApplications() {
   yield [
     watchFetchActiveApplications(),
+    watchFetchFundedApplications(),
   ];
 }
