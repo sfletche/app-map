@@ -31,9 +31,23 @@ function* watchFetchFundedApplications() {
   yield call(takeLatest, actionTypes.FETCH_FUNDED_APPLICATIONS, fetchFundedApplications);
 }
 
+export function* fetchAvailabilityRequests(action) {
+  try {
+    const response = yield call(api.fetchAvailabilityRequests);
+    yield put(actions.receiveAvailabilityRequests(response));
+  } catch (e) {
+    yield put(actions.receiveAvailabilityRequests([]));
+  }
+}
+
+function* watchFetchAvailabilityRequests() {
+  yield call(takeLatest, actionTypes.FETCH_AVAILABILITY_REQUESTS, fetchAvailabilityRequests);
+}
+
 export default function* fetchApplications() {
   yield [
     watchFetchActiveApplications(),
     watchFetchFundedApplications(),
+    watchFetchAvailabilityRequests(),
   ];
 }

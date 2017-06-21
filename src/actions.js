@@ -26,4 +26,17 @@ export const receiveFundedApplications = (response) => {
   }
 }
 
+export const fetchAvailabilityRequests = (response) => {
+  return {
+    type: actionTypes.FETCH_AVAILABILITY_REQUESTS,
+  }
+}
+
+export const receiveAvailabilityRequests = (response) => {
+  return {
+    type: actionTypes.RECEIVE_AVAILABILITY_REQUESTS,
+    response,
+  }
+}
+
 

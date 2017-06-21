@@ -4,6 +4,7 @@ import * as actionTypes from '../action-types'
 const initialState = {
   activeApps: [],
   fundedApps: [],
+  caCities: [],
 }
 
 function applications(state = initialState, action = {}) {
@@ -18,6 +19,12 @@ function applications(state = initialState, action = {}) {
       return {
         ...state,
         fundedApps: action.response,
+      }
+    }
+    case actionTypes.RECEIVE_AVAILABILITY_REQUESTS: {
+      return {
+        ...state,
+        caCities: action.response,
       }
     }
     default:

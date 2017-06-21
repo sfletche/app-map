@@ -13,3 +13,9 @@ export function* fetchFundedApplications() {
   const { json } = yield call(request, url);
   return json;
 }
+
+export function* fetchAvailabilityRequests() {
+  const url = 'availability';
+  const { json } = yield call(request, url);
+  return json;
+}

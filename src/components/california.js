@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import { fetchActiveApplications, fetchFundedApplications } from '../actions';
-import { caCities } from '../applications/ca-cities';
+import {
+  fetchActiveApplications,
+  fetchFundedApplications,
+  fetchAvailabilityRequests,
+} from '../actions';
 import { greenIcon, blueIcon, greyIcon } from '../constants/icons';
 import Loading from './loading';
 import RfMap from './rf-map';
@@ -11,9 +14,10 @@ class California extends Component {
   componentDidMount() {
     this.props.fetchActiveApplications();
     this.props.fetchFundedApplications();
+    this.props.fetchAvailabilityRequests();
   }
 
-  getMapLayers(activeApps, fundedApps) {
+  getMapLayers(activeApps, fundedApps, caCities) {
     return [
       {
         name: 'Active Applications',
@@ -34,19 +38,19 @@ class California extends Component {
     ];
   }
 
-  getMap(activeApps, fundedApps) {
+  getMap(activeApps, fundedApps, caCities) {
     const layers = [activeApps, fundedApps, caCities];
     const hasApps = _.every(layers, 'length');
-    const layerObjs = hasApps && this.getMapLayers(activeApps, fundedApps);
+    const layerObjs = hasApps && this.getMapLayers(activeApps, fundedApps, caCities);
     return hasApps ? <RfMap center={[37.5, -120]} zoom={6} layers={layerObjs} /> : <Loading />
   }
 
   render() {
-    const { activeApps, fundedApps } = this.props;
+    const { activeApps, fundedApps, caCities } = this.props;
     return (
       <div>
         <h1>California Applications</h1>
-        {this.getMap(activeApps, fundedApps)}
+        {this.getMap(activeApps, fundedApps, caCities)}
       </div>
     );
   }
@@ -55,9 +59,10 @@ class California extends Component {
 const mapStateToProps = state => ({
   activeApps: state.map.applications.activeApps,
   fundedApps: state.map.applications.fundedApps,
+  caCities: state.map.applications.caCities,
 });
 
 export default connect(
   mapStateToProps,
-  { fetchActiveApplications, fetchFundedApplications }
+  { fetchActiveApplications, fetchFundedApplications, fetchAvailabilityRequests }
 )(California)

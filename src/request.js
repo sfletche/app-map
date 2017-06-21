@@ -2,6 +2,7 @@
 // import { call } from 'redux-saga/effects';
 import { activeApps } from './applications/active-apps';
 import { fundedApps } from './applications/funded-apps';
+import { caCities } from './applications/ca-cities';
 
 // const DEFAULT_HEADERS = {
 //   'Content-Type': 'application/json',
@@ -12,7 +13,9 @@ export function request(url) {
     case 'active':
       return { json: activeApps }
     case 'funded':
-      return { json: fundedApps}
+      return { json: fundedApps }
+    case 'availability':
+      return { json: caCities }
     default:
       return { json: [] }
   }
