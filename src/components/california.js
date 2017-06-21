@@ -1,71 +1,52 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {
-  Map,
-  TileLayer,
-  Marker,
-  Popup,
-  LayersControl,
-  LayerGroup,
-} from 'react-leaflet';
+import _ from 'lodash';
 import { fetchActiveApplications } from '../actions';
 import { fundedApps } from '../applications/funded-apps';
-import { basemaps } from '../constants/basemaps';
-import { greenIcon, blueIcon } from '../constants/icons';
+import { caCities } from '../applications/ca-cities';
+import { greenIcon, blueIcon, greyIcon } from '../constants/icons';
 import Loading from './loading';
-
-const { BaseLayer, Overlay } = LayersControl;
-
-function getBasemaps(basemaps) {
-  return basemaps.map(basemap => (
-    <BaseLayer key={basemap.name} name={basemap.name} checked={basemap.checked}>
-      <TileLayer url={basemap.url} />
-    </BaseLayer>
-  ));
-}
-
-function getMarkers(apps, icon) {
-  return apps.map(app => (
-    <Marker key={app.lat_lon} position={app.lat_lon} icon={icon}>
-      <Popup><span>{app.message}</span></Popup>
-    </Marker>
-  ));
-}
-
-function getMap(activeApps) {
-  const mapCenter = [37.5, -120];
-  const zoomLevel = 6;
-  return (
-    <Map center={mapCenter} zoom={zoomLevel}>
-      <LayersControl position="topright">
-        {getBasemaps(basemaps)}
-
-        <Overlay checked name="Active Applications">
-          <LayerGroup>{getMarkers(activeApps, blueIcon)}</LayerGroup>
-        </Overlay>
-        <Overlay name="Funded Applications">
-          <LayerGroup>{getMarkers(fundedApps, greenIcon)}</LayerGroup>
-        </Overlay>
-
-      </LayersControl>
-    </Map>
-  )
-}
-
+import RfMap from './rf-map';
 
 class California extends Component {
   componentDidMount() {
-    console.log('dispatching fetchActiveApplications...');
     this.props.fetchActiveApplications();
+  }
+
+  getMapLayers(activeApps) {
+    return [
+      {
+        name: 'Active Applications',
+        checked: true,
+        data: activeApps,
+        icon: blueIcon,
+      },
+      {
+        name: 'Funded Applications',
+        data: fundedApps,
+        icon: greenIcon,
+      },
+      {
+        name: 'Cities',
+        data: caCities,
+        icon: greyIcon,
+      },
+    ];
+  }
+
+  getMap(activeApps) {
+    const layers = [activeApps, fundedApps, caCities];
+    const hasApps = _.every(layers, 'length');
+    const layerObjs = hasApps && this.getMapLayers(activeApps);
+    return hasApps ? <RfMap center={[37.5, -120]} zoom={6} layers={layerObjs} /> : <Loading />
   }
 
   render() {
     const { activeApps } = this.props;
-    console.log('rendering...', activeApps);
     return (
       <div>
         <h1>California Applications</h1>
-        {activeApps.length ? getMap(activeApps) : <Loading />}
+        {this.getMap(activeApps)}
       </div>
     );
   }
