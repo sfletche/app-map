@@ -1,53 +1,18 @@
 import * as actionTypes from './action-types'
 
-export const increment = () => {
-  return dispatch => {
-    dispatch({
-      type: actionTypes.INCREMENT_REQUESTED
-    })
-
-    dispatch({
-      type: actionTypes.INCREMENT
-    })
+export const fetchActiveApplications = (response) => {
+  console.log('actions.fetchActiveApplications');
+  return {
+    type: actionTypes.FETCH_ACTIVE_APPLICATIONS,
+    response,
   }
 }
 
-export const incrementAsync = () => {
-  return dispatch => {
-    dispatch({
-      type: actionTypes.INCREMENT_REQUESTED
-    })
-
-    return setTimeout(() => {
-      dispatch({
-        type: actionTypes.INCREMENT
-      })
-    }, 1000)
+export const receiveActiveApplications = (response) => {
+  console.log('actions.receiveActiveApplications', response);
+  return {
+    type: actionTypes.RECEIVE_ACTIVE_APPLICATIONS,
+    response,
   }
 }
 
-export const decrement = () => {
-  return dispatch => {
-    dispatch({
-      type: actionTypes.DECREMENT_REQUESTED
-    })
-
-    dispatch({
-      type: actionTypes.DECREMENT
-    })
-  }
-}
-
-export const decrementAsync = () => {
-  return dispatch => {
-    dispatch({
-      type: actionTypes.DECREMENT_REQUESTED
-    })
-
-    return setTimeout(() => {
-      dispatch({
-        type: actionTypes.DECREMENT
-      })
-    }, 1000)
-  }
-}

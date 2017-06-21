@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import {
   Map,
   TileLayer,
@@ -7,10 +8,11 @@ import {
   LayersControl,
   LayerGroup,
 } from 'react-leaflet';
-import { activeApps } from '../applications/active-apps';
+import { fetchActiveApplications } from '../actions';
 import { fundedApps } from '../applications/funded-apps';
 import { basemaps } from '../constants/basemaps';
 import { greenIcon, blueIcon } from '../constants/icons';
+import Loading from './loading';
 
 const { BaseLayer, Overlay } = LayersControl;
 
@@ -30,27 +32,47 @@ function getMarkers(apps, icon) {
   ));
 }
 
-function California() {
+function getMap(activeApps) {
   const mapCenter = [37.5, -120];
   const zoomLevel = 6;
   return (
-    <div>
-      <h1>California Applications</h1>
-      <Map center={mapCenter} zoom={zoomLevel}>
-        <LayersControl position="topright">
-          {getBasemaps(basemaps)}
+    <Map center={mapCenter} zoom={zoomLevel}>
+      <LayersControl position="topright">
+        {getBasemaps(basemaps)}
 
-          <Overlay checked name="Active Applications">
-            <LayerGroup>{getMarkers(activeApps, blueIcon)}</LayerGroup>
-          </Overlay>
-          <Overlay name="Funded Applications">
-            <LayerGroup>{getMarkers(fundedApps, greenIcon)}</LayerGroup>
-          </Overlay>
+        <Overlay checked name="Active Applications">
+          <LayerGroup>{getMarkers(activeApps, blueIcon)}</LayerGroup>
+        </Overlay>
+        <Overlay name="Funded Applications">
+          <LayerGroup>{getMarkers(fundedApps, greenIcon)}</LayerGroup>
+        </Overlay>
 
-        </LayersControl>
-      </Map>
-    </div>
-  );
+      </LayersControl>
+    </Map>
+  )
 }
 
-export default California;
+
+class California extends Component {
+  componentDidMount() {
+    console.log('dispatching fetchActiveApplications...');
+    this.props.fetchActiveApplications();
+  }
+
+  render() {
+    const { activeApps } = this.props;
+    console.log('rendering...', activeApps);
+    return (
+      <div>
+        <h1>California Applications</h1>
+        {activeApps.length ? getMap(activeApps) : <Loading />}
+      </div>
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+  activeApps: state.map.applications.activeApps,
+});
+
+export default connect(mapStateToProps, { fetchActiveApplications })(California)
