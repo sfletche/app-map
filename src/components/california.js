@@ -15,13 +15,17 @@ class California extends Component {
     this.props.fetchActiveApplications();
     this.props.fetchFundedApplications();
     this.props.fetchAvailabilityRequests();
+    this.startPoll();
+  }
+
+  startPoll() {
+    setInterval(() => this.props.fetchAvailabilityRequests(), 1000);
   }
 
   getMapLayers(activeApps, fundedApps, caCities) {
     return [
       {
         name: 'Active Applications',
-        checked: true,
         data: activeApps,
         icon: blueIcon,
       },
@@ -32,6 +36,7 @@ class California extends Component {
       },
       {
         name: 'Cities',
+        checked: true,
         data: caCities,
         icon: greyIcon,
       },

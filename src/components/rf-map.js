@@ -21,9 +21,13 @@ function getBasemaps(basemaps) {
   ));
 }
 
+function getOpacity(age) {
+  return (20 - age) / 20;
+}
+
 function getMarkers(apps, icon) {
   return apps.map(app => (
-    <Marker key={app.message} position={app.lat_lon} icon={icon}>
+    <Marker key={app.message} position={app.lat_lon} icon={icon} opacity={getOpacity(app.age)}>
       <Popup><span>{app.message}</span></Popup>
     </Marker>
   ));

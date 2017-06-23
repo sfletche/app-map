@@ -8,14 +8,33 @@ import { caCities } from './applications/ca-cities';
 //   'Content-Type': 'application/json',
 // };
 
+let availabilityCounter = 1;
+
+function updateMarkerTimestamps() {
+  if (availabilityCounter === 1) {
+    caCities.forEach(city => city.age = 0)
+  }
+  for (let i=0; i<availabilityCounter; i++) {
+    caCities[i].age = caCities[i].age+1 || 0;
+  }
+}
+
+function updateAvailbilityCounter() {
+  availabilityCounter += Math.round(Math.random());
+  availabilityCounter = (availabilityCounter % caCities.length) || 1;
+  updateMarkerTimestamps();
+}
+
 export function request(url) {
   switch (url) {
     case 'active':
       return { json: activeApps }
     case 'funded':
       return { json: fundedApps }
-    case 'availability':
-      return { json: caCities }
+    case 'availability': {
+      updateAvailbilityCounter();
+      return { json: caCities.slice(0, availabilityCounter) }
+    }
     default:
       return { json: [] }
   }
