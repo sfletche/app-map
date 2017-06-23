@@ -22,7 +22,7 @@ class California extends Component {
     setInterval(() => this.props.fetchAvailabilityRequests(), 300);
   }
 
-  getMapLayers(activeApps, fundedApps, caCities) {
+  getMapLayers(activeApps, fundedApps, cities) {
     return [
       {
         name: 'Active Applications',
@@ -37,25 +37,36 @@ class California extends Component {
       {
         name: 'Cities',
         checked: true,
-        data: caCities,
+        data: cities,
         icon: greyIcon,
       },
     ];
   }
 
-  getMap(activeApps, fundedApps, caCities) {
-    const layers = [activeApps, fundedApps, caCities];
+  getMap(activeApps, fundedApps, cities) {
+    const layers = [activeApps, fundedApps, cities];
     const hasApps = _.every(layers, 'length');
-    const layerObjs = hasApps && this.getMapLayers(activeApps, fundedApps, caCities);
+    const layerObjs = hasApps && this.getMapLayers(activeApps, fundedApps, cities);
     return hasApps ? <RfMap center={[37.5, -120]} zoom={6} layers={layerObjs} /> : <Loading />
   }
 
+  getCityList(cities) {
+    const orderedCities = _.takeRight(cities, 3).reverse();
+    return (
+      <div>
+        {orderedCities[0] && <p key={orderedCities[0].name} className="fade-in">{orderedCities[0].name}</p>}
+        {orderedCities.slice(1,3).map(city => <p key={city.name}>{city.name}</p>)}
+      </div>
+    );
+  }
+
   render() {
-    const { activeApps, fundedApps, caCities } = this.props;
+    const { activeApps, fundedApps, cities } = this.props;
     return (
       <div>
         <h1>California Availability Checks</h1>
-        {this.getMap(activeApps, fundedApps, caCities)}
+        {this.getMap(activeApps, fundedApps, cities)}
+        {this.getCityList(cities)}
       </div>
     );
   }
@@ -64,7 +75,7 @@ class California extends Component {
 const mapStateToProps = state => ({
   activeApps: state.map.applications.activeApps,
   fundedApps: state.map.applications.fundedApps,
-  caCities: state.map.applications.caCities,
+  cities: state.map.applications.caCities,
 });
 
 export default connect(
