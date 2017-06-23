@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import _ from 'lodash';
 import {
@@ -69,6 +70,20 @@ class California extends Component {
     );
   }
 }
+
+const markerDataShape = {
+  lat_lon: PropTypes.arrayOf(PropTypes.number).isRequired,
+  name: PropTypes.string.isRequired,
+};
+
+RfMap.propTypes = {
+  activeApps: PropTypes.shape(markerDataShape),
+  fundedApps: PropTypes.shape(markerDataShape),
+  cities: PropTypes.shape(markerDataShape),
+  fetchActiveApplications: PropTypes.func.isRequired,
+  fetchFundedApplications: PropTypes.func.isRequired,
+  fetchAvailabilityRequests: PropTypes.func.isRequired,
+};
 
 const mapStateToProps = state => ({
   activeApps: state.map.applications.activeApps,

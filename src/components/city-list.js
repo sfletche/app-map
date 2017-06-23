@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { getOpacity } from '../helpers';
 
 function CityList({ cities }) {
@@ -13,5 +14,12 @@ function CityList({ cities }) {
     </div>
   )
 }
+
+CityList.propTypes = {
+  cities: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
+  }),
+};
 
 export default CityList;
