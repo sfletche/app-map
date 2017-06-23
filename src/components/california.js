@@ -7,7 +7,7 @@ import {
   fetchAvailabilityRequests,
 } from '../actions';
 import { greenIcon, blueIcon, greyIcon } from '../constants/icons';
-import { getOpacity } from '../helpers';
+import CityList from './city-list';
 import Loading from './loading';
 import RfMap from './rf-map';
 
@@ -47,21 +47,13 @@ class California extends Component {
   getMap(activeApps, fundedApps, cities) {
     const layers = [activeApps, fundedApps, cities];
     const hasApps = _.every(layers, 'length');
-    const layerObjs = hasApps && this.getMapLayers(activeApps, fundedApps, cities);
-    return hasApps ? <RfMap center={[37.5, -120]} zoom={6} layers={layerObjs} /> : <Loading />
-  }
-
-  getCityList(cities) {
-    const orderedCities = cities.reverse();
-    return (
-      <div>
-        {orderedCities.map(city => (
-          <p key={city.name} style={{opacity: getOpacity(city.age)}}>
-          {city.name}
-          </p>
-        ))}
-      </div>
-    )
+    return hasApps ?
+      <RfMap
+        center={[37.5, -120]}
+        zoom={6}
+        layers={this.getMapLayers(activeApps, fundedApps, cities)}
+      /> :
+      <Loading />
   }
 
   render() {
@@ -70,7 +62,7 @@ class California extends Component {
       <div>
         <h1>California Availability Checks</h1>
         {this.getMap(activeApps, fundedApps, cities)}
-        {this.getCityList(cities)}
+        <CityList cities={cities} />
       </div>
     );
   }
