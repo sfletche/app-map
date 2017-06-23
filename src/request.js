@@ -1,5 +1,6 @@
 // import 'whatwg-fetch';
 // import { call } from 'redux-saga/effects';
+import _ from 'lodash';
 import { activeApps } from './applications/active-apps';
 import { fundedApps } from './applications/funded-apps';
 import { caCities } from './applications/ca-cities';
@@ -10,18 +11,20 @@ import { caCities } from './applications/ca-cities';
 
 let availabilityCounter = 1;
 
+const cities = _.shuffle(caCities);
+
 function updateMarkerTimestamps() {
   if (availabilityCounter === 1) {
-    caCities.forEach(city => city.age = 0)
+    cities.forEach(city => city.age = 0)
   }
   for (let i=0; i<availabilityCounter; i++) {
-    caCities[i].age = caCities[i].age+1 || 0;
+    cities[i].age = cities[i].age+1 || 0;
   }
 }
 
 function updateAvailbilityCounter() {
   availabilityCounter += Math.round(Math.random() - .3);
-  availabilityCounter = (availabilityCounter % caCities.length) || 1;
+  availabilityCounter = (availabilityCounter % cities.length) || 1;
   updateMarkerTimestamps();
 }
 
@@ -33,7 +36,7 @@ export function request(url) {
       return { json: fundedApps }
     case 'availability': {
       updateAvailbilityCounter();
-      return { json: caCities.slice(0, availabilityCounter) }
+      return { json: cities.slice(0, availabilityCounter) }
     }
     default:
       return { json: [] }
