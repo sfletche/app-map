@@ -23,3 +23,8 @@ https://github.com/redux-saga/redux-saga
 
 Polling - http://notjoshmiller.com/ajax-polling-in-react-with-redux/
 
+How to run
+
+    git clone
+    cd app-map
+    npm start
