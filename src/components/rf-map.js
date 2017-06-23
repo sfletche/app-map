@@ -22,7 +22,7 @@ function getBasemaps(basemaps) {
 }
 
 function getOpacity(age) {
-  return (20 - age) / 20;
+  return (40 - age) / 40;
 }
 
 function getMarkers(apps, icon) {

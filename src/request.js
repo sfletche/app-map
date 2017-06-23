@@ -20,7 +20,7 @@ function updateMarkerTimestamps() {
 }
 
 function updateAvailbilityCounter() {
-  availabilityCounter += Math.round(Math.random());
+  availabilityCounter += Math.round(Math.random() - .3);
   availabilityCounter = (availabilityCounter % caCities.length) || 1;
   updateMarkerTimestamps();
 }

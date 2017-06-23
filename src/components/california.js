@@ -19,7 +19,7 @@ class California extends Component {
   }
 
   startPoll() {
-    setInterval(() => this.props.fetchAvailabilityRequests(), 1000);
+    setInterval(() => this.props.fetchAvailabilityRequests(), 300);
   }
 
   getMapLayers(activeApps, fundedApps, caCities) {
@@ -54,7 +54,7 @@ class California extends Component {
     const { activeApps, fundedApps, caCities } = this.props;
     return (
       <div>
-        <h1>California Applications</h1>
+        <h1>California Availability Checks</h1>
         {this.getMap(activeApps, fundedApps, caCities)}
       </div>
     );
