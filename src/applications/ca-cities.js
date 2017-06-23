@@ -84,10 +84,6 @@ export const caCities = [
     "message": "Auburn"
   },
   {
-    "lat_lon": [33.342819, -118.328228],
-    "message": "Avalon"
-  },
-  {
     "lat_lon": [36.004122, -120.129028],
     "message": "Avenal"
   },
