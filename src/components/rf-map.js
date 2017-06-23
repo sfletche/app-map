@@ -27,8 +27,8 @@ function getOpacity(age) {
 
 function getMarkers(apps, icon) {
   return apps.map(app => (
-    <Marker key={app.message} position={app.lat_lon} icon={icon} opacity={getOpacity(app.age)}>
-      <Popup><span>{app.message}</span></Popup>
+    <Marker key={app.name} position={app.lat_lon} icon={icon} opacity={getOpacity(app.age)}>
+      <Popup><span>{app.name}</span></Popup>
     </Marker>
   ));
 }
@@ -60,7 +60,7 @@ RfMap.propTypes = {
     checked: PropTypes.bool,
     data: PropTypes.arrayOf(PropTypes.shape({
       lat_lon: PropTypes.arrayOf(PropTypes.number).isRequired,
-      message: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
     })).isRequired,
     icon: PropTypes.instanceOf(L.Icon).isRequired,
   })).isRequired,

@@ -1,55 +1,55 @@
 export const activeApps = [
   {
     "lat_lon": [35.142467, -119.456508],
-    "message": "Taft"
+    "name": "Taft"
   },
   {
     "lat_lon": [35.132189, -118.448975],
-    "message": "Tehachapi"
+    "name": "Tehachapi"
   },
   {
     "lat_lon": [40.027103, -122.123322],
-    "message": "Tehama"
+    "name": "Tehama"
   },
   {
     "lat_lon": [33.493639, -117.148364],
-    "message": "Temecula"
+    "name": "Temecula"
   },
   {
     "lat_lon": [34.107231, -118.057847],
-    "message": "Thousand Oaks"
+    "name": "Thousand Oaks"
   },
   {
     "lat_lon": [33.83585,  -118.340628],
-    "message": "Torrance"
+    "name": "Torrance"
   },
   {
     "lat_lon": [37.73965,  -121.425222],
-    "message": "Tracy"
+    "name": "Tracy"
   },
   {
     "lat_lon": [41.059292, -124.143125],
-    "message": "Trinidad"
+    "name": "Trinidad"
   },
   {
     "lat_lon": [36.207728, -119.347339],
-    "message": "Tulare"
+    "name": "Tulare"
   },
   {
     "lat_lon": [41.955989, -121.477492],
-    "message": "Tulelake"
+    "name": "Tulelake"
   },
   {
     "lat_lon": [37.494658, -120.846594],
-    "message": "Turlock"
+    "name": "Turlock"
   },
   {
     "lat_lon": [33.74585,  -117.826167],
-    "message": "Tustin"
+    "name": "Tustin"
   },
   {
     "lat_lon": [34.135558, -116.054169],
-    "message": "Twentynine Palms"
+    "name": "Twentynine Palms"
   },
 ];
 

@@ -1,1822 +1,1822 @@
 export const caCities = [
   {
     "lat_lon": [34.582769, -117.409214],
-    "message": "Adelanto"
+    "name": "Adelanto, CA"
   },
   {
     "lat_lon": [34.153339, -118.761675],
-    "message": "Agoura Hills"
+    "name": "Agoura Hills, CA"
   },
   {
     "lat_lon": [37.765206, -122.241636],
-    "message": "Alameda"
+    "name": "Alameda, CA"
   },
   {
     "lat_lon": [37.886869, -122.297747],
-    "message": "Albany"
+    "name": "Albany, CA"
   },
   {
     "lat_lon": [34.095286, -118.127014],
-    "message": "Alhambra"
+    "name": "Alhambra, CA"
   },
   {
     "lat_lon": [33.575,  -117.725556],
-    "message": "Aliso Viejo"
+    "name": "Aliso Viejo, CA"
   },
   {
     "lat_lon": [41.487114, -120.542456],
-    "message": "Alturas"
+    "name": "Alturas, CA"
   },
   {
     "lat_lon": [38.419356, -120.824103],
-    "message": "Amador City"
+    "name": "Amador City, CA"
   },
   {
     "lat_lon": [38.174917, -122.260803],
-    "message": "American Canyon"
+    "name": "American Canyon, CA"
   },
   {
     "lat_lon": [33.835292, -117.914503],
-    "message": "Anaheim"
+    "name": "Anaheim, CA"
   },
   {
     "lat_lon": [40.448208, -122.297783],
-    "message": "Anderson"
+    "name": "Anderson, CA"
   },
   {
     "lat_lon": [38.067783, -120.538531],
-    "message": "Angels Camp"
+    "name": "Angels Camp, CA"
   },
   {
     "lat_lon": [38.004922, -121.805789],
-    "message": "Antioch"
+    "name": "Antioch, CA"
   },
   {
     "lat_lon": [34.139728, -118.035344],
-    "message": "Arcadia"
+    "name": "Arcadia, CA"
   },
   {
     "lat_lon": [40.866517, -124.082839],
-    "message": "Arcata"
+    "name": "Arcata, CA"
   },
   {
     "lat_lon": [35.118586, -120.590725],
-    "message": "Arroyo Grande"
+    "name": "Arroyo Grande, CA"
   },
   {
     "lat_lon": [33.865847, -118.083122],
-    "message": "Artesia"
+    "name": "Artesia, CA"
   },
   {
     "lat_lon": [35.2018, -118.833106],
-    "message": "Arvin"
+    "name": "Arvin, CA"
   },
   {
     "lat_lon": [35.489417, -120.670725],
-    "message": "Atascadero"
+    "name": "Atascadero, CA"
   },
   {
     "lat_lon": [37.347717, -120.609083],
-    "message": "Atwater"
+    "name": "Atwater, CA"
   },
   {
     "lat_lon": [38.896564, -121.076889],
-    "message": "Auburn"
+    "name": "Auburn, CA"
   },
   {
     "lat_lon": [36.004122, -120.129028],
-    "message": "Avenal"
+    "name": "Avenal, CA"
   },
   {
     "lat_lon": [34.133619, -117.907564],
-    "message": "Azusa"
+    "name": "Azusa, CA"
   },
   {
     "lat_lon": [35.373292, -119.018711],
-    "message": "Bakersfield"
+    "name": "Bakersfield, CA"
   },
   {
     "lat_lon": [34.085286, -117.960897],
-    "message": "Baldwin Park"
+    "name": "Baldwin Park, CA"
   },
   {
     "lat_lon": [33.925572, -116.876411],
-    "message": "Banning"
+    "name": "Banning, CA"
   },
   {
     "lat_lon": [34.895797, -117.017283],
-    "message": "Barstow"
+    "name": "Barstow, CA"
   },
   {
     "lat_lon": [33.929461, -116.977247],
-    "message": "Beaumont"
+    "name": "Beaumont, CA"
   },
   {
     "lat_lon": [33.977514, -118.187017],
-    "message": "Bell"
+    "name": "Bell, CA"
   },
   {
     "lat_lon": [33.965292, -118.151458],
-    "message": "Bell Gardens"
+    "name": "Bell Gardens, CA"
   },
   {
     "lat_lon": [33.881683, -118.117011],
-    "message": "Bellflower"
+    "name": "Bellflower, CA"
   },
   {
     "lat_lon": [37.520214, -122.275800],
-    "message": "Belmont"
+    "name": "Belmont, CA"
   },
   {
     "lat_lon": [37.872703, -122.464417],
-    "message": "Belvedere"
+    "name": "Belvedere, CA"
   },
   {
     "lat_lon": [37.871592, -122.272747],
-    "message": "Berkeley"
+    "name": "Berkeley, CA"
   },
   {
     "lat_lon": [34.073619, -118.400356],
-    "message": "Beverly Hills"
+    "name": "Beverly Hills, CA"
   },
   {
     "lat_lon": [34.243897, -116.911422],
-    "message": "Big Bear Lake"
+    "name": "Big Bear Lake, CA"
   },
   {
     "lat_lon": [39.412389, -121.712750],
-    "message": "Biggs"
+    "name": "Biggs, CA"
   },
   {
     "lat_lon": [37.363539, -118.395111],
-    "message": "Bishop"
+    "name": "Bishop, CA"
   },
   {
     "lat_lon": [40.882908, -123.983950],
-    "message": "Blue Lake"
+    "name": "Blue Lake, CA"
   },
   {
     "lat_lon": [33.617233, -114.589175],
-    "message": "Blythe"
+    "name": "Blythe, CA"
   },
   {
     "lat_lon": [34.14695,  -117.970897],
-    "message": "Bradbury"
+    "name": "Bradbury, CA"
   },
   {
     "lat_lon": [32.978658, -115.530267],
-    "message": "Brawley"
+    "name": "Brawley, CA"
   },
   {
     "lat_lon": [33.916681, -117.900061],
-    "message": "Brea"
+    "name": "Brea, CA"
   },
   {
     "lat_lon": [34.057361, -118.480511],
-    "message": "Brentwood"
+    "name": "Brentwood, CA"
   },
   {
     "lat_lon": [37.680767, -122.399972],
-    "message": "Brisbane"
+    "name": "Brisbane, CA"
   },
   {
     "lat_lon": [34.613597, -120.192650],
-    "message": "Buellton"
+    "name": "Buellton, CA"
   },
   {
     "lat_lon": [33.867514, -117.998117],
-    "message": "Buena Park"
+    "name": "Buena Park, CA"
   },
   {
     "lat_lon": [34.180839, -118.308967],
-    "message": "Burbank"
+    "name": "Burbank, CA"
   },
   {
     "lat_lon": [37.584103, -122.366083],
-    "message": "Burlingame"
+    "name": "Burlingame, CA"
   },
   {
     "lat_lon": [34.138333, -118.660833],
-    "message": "Calabasas"
+    "name": "Calabasas, CA"
   },
   {
     "lat_lon": [32.678947, -115.498883],
-    "message": "Calexico"
+    "name": "Calexico, CA"
   },
   {
     "lat_lon": [35.1258, -117.985903],
-    "message": "California City"
+    "name": "California City, CA"
   },
   {
     "lat_lon": [34.003903, -117.061975],
-    "message": "Calimesa"
+    "name": "Calimesa, CA"
   },
   {
     "lat_lon": [33.125597, -115.514153],
-    "message": "Calipatria"
+    "name": "Calipatria, CA"
   },
   {
     "lat_lon": [38.578797, -122.579706],
-    "message": "Calistoga"
+    "name": "Calistoga, CA"
   },
   {
     "lat_lon": [34.216394, -119.037603],
-    "message": "Camarillo"
+    "name": "Camarillo, CA"
   },
   {
     "lat_lon": [37.287164, -121.949958],
-    "message": "Campbell"
+    "name": "Campbell, CA"
   },
   {
     "lat_lon": [33.685022, -117.273092],
-    "message": "Canyon Lake"
+    "name": "Canyon Lake, CA"
   },
   {
     "lat_lon": [36.975228, -121.953292],
-    "message": "Capitola"
+    "name": "Capitola, CA"
   },
   {
     "lat_lon": [33.158092, -117.350594],
-    "message": "Carlsbad"
+    "name": "Carlsbad, CA"
   },
   {
     "lat_lon": [36.555239, -121.923289],
-    "message": "Carmel-by-the-Sea"
+    "name": "Carmel-by-the-Sea, CA"
   },
   {
     "lat_lon": [34.398883, -119.518456],
-    "message": "Carpinteria"
+    "name": "Carpinteria, CA"
   },
   {
     "lat_lon": [33.831406, -118.282017],
-    "message": "Carson"
+    "name": "Carson, CA"
   },
   {
     "lat_lon": [33.779742, -116.465292],
-    "message": "Cathedral City"
+    "name": "Cathedral City, CA"
   },
   {
     "lat_lon": [37.594933, -120.957711],
-    "message": "Ceres"
+    "name": "Ceres, CA"
   },
   {
     "lat_lon": [33.858347, -118.064786],
-    "message": "Cerritos"
+    "name": "Cerritos, CA"
   },
   {
     "lat_lon": [39.728494, -121.837478],
-    "message": "Chico"
+    "name": "Chico, CA"
   },
   {
     "lat_lon": [34.012236, -117.688944],
-    "message": "Chino"
+    "name": "Chino, CA"
   },
   {
     "lat_lon": [33.989819, -117.732586],
-    "message": "Chino Hills"
+    "name": "Chino Hills, CA"
   },
   {
     "lat_lon": [37.123,  -120.260175],
-    "message": "Chowchilla"
+    "name": "Chowchilla, CA"
   },
   {
     "lat_lon": [32.640053, -117.084197],
-    "message": "Chula Vista"
+    "name": "Chula Vista, CA"
   },
   {
     "lat_lon": [38.707125, -121.281061],
-    "message": "Citrus Heights"
+    "name": "Citrus Heights, CA"
   },
   {
     "lat_lon": [34.096675, -117.719778],
-    "message": "Claremont"
+    "name": "Claremont, CA"
   },
   {
     "lat_lon": [37.941033, -121.935792],
-    "message": "Clayton"
+    "name": "Clayton, CA"
   },
   {
     "lat_lon": [38.958231, -122.626372],
-    "message": "Clearlake"
+    "name": "Clearlake, CA"
   },
   {
     "lat_lon": [38.805461, -123.017222],
-    "message": "Cloverdale"
+    "name": "Cloverdale, CA"
   },
   {
     "lat_lon": [36.825228, -119.702919],
-    "message": "Clovis"
+    "name": "Clovis, CA"
   },
   {
     "lat_lon": [33.6803, -116.173894],
-    "message": "Coachella"
+    "name": "Coachella, CA"
   },
   {
     "lat_lon": [36.139678, -120.360150],
-    "message": "Coalinga"
+    "name": "Coalinga, CA"
   },
   {
     "lat_lon": [39.100731, -120.953275],
-    "message": "Colfax"
+    "name": "Colfax, CA"
   },
   {
     "lat_lon": [34.073903, -117.313656],
-    "message": "Colton"
+    "name": "Colton, CA"
   },
   {
     "lat_lon": [39.214333, -122.009417],
-    "message": "Colusa"
+    "name": "Colusa, CA"
   },
   {
     "lat_lon": [34.000569, -118.159792],
-    "message": "Commerce"
+    "name": "Commerce, CA"
   },
   {
     "lat_lon": [33.89585,  -118.220072],
-    "message": "Compton"
+    "name": "Compton, CA"
   },
   {
     "lat_lon": [37.977978, -122.031072],
-    "message": "Concord"
+    "name": "Concord, CA"
   },
   {
     "lat_lon": [39.927658, -122.179156],
-    "message": "Corning"
+    "name": "Corning, CA"
   },
   {
     "lat_lon": [33.875294, -117.566439],
-    "message": "Corona"
+    "name": "Corona, CA"
   },
   {
     "lat_lon": [32.685886, -117.183089],
-    "message": "Coronado"
+    "name": "Coronado, CA"
   },
   {
     "lat_lon": [33.641133, -117.918669],
-    "message": "Costa Mesa"
+    "name": "Costa Mesa, CA"
   },
   {
     "lat_lon": [38.327778, -122.709167],
-    "message": "Cotati"
+    "name": "Cotati, CA"
   },
   {
     "lat_lon": [34.090008, -117.890339],
-    "message": "Covina"
+    "name": "Covina, CA"
   },
   {
     "lat_lon": [41.755947, -124.201747],
-    "message": "Crescent City"
+    "name": "Crescent City, CA"
   },
   {
     "lat_lon": [33.960569, -118.185350],
-    "message": "Cudahy"
+    "name": "Cudahy, CA"
   },
   {
     "lat_lon": [34.021122, -118.396467],
-    "message": "Culver City"
+    "name": "Culver City, CA"
   },
   {
     "lat_lon": [37.322997, -122.032183],
-    "message": "Cupertino"
+    "name": "Cupertino, CA"
   },
   {
     "lat_lon": [37.320531, -121.962242],
-    "message": "Cypress"
+    "name": "Cypress, CA"
   },
   {
     "lat_lon": [37.687925, -122.470208],
-    "message": "Daly City"
+    "name": "Daly City, CA"
   },
   {
     "lat_lon": [33.466972, -117.698108],
-    "message": "Dana Point"
+    "name": "Dana Point, CA"
   },
   {
     "lat_lon": [38.544906, -121.740517],
-    "message": "Davis"
+    "name": "Davis, CA"
   },
   {
     "lat_lon": [32.959489, -117.265314],
-    "message": "Del Mar"
+    "name": "Del Mar, CA"
   },
   {
     "lat_lon": [36.593292, -121.834953],
-    "message": "Del Rey Oaks"
+    "name": "Del Rey Oaks, CA"
   },
   {
     "lat_lon": [35.768842, -119.247053],
-    "message": "Delano"
+    "name": "Delano, CA"
   },
   {
     "lat_lon": [33.961125, -116.501678],
-    "message": "Desert Hot Springs"
+    "name": "Desert Hot Springs, CA"
   },
   {
     "lat_lon": [34.028622, -117.810336],
-    "message": "Diamond Bar"
+    "name": "Diamond Bar, CA"
   },
   {
     "lat_lon": [36.543283, -119.387067],
-    "message": "Dinuba"
+    "name": "Dinuba, CA"
   },
   {
     "lat_lon": [38.445464, -121.823297],
-    "message": "Dixon"
+    "name": "Dixon, CA"
   },
   {
     "lat_lon": [41.967369, -121.918061],
-    "message": "Dorris"
+    "name": "Dorris, CA"
   },
   {
     "lat_lon": [36.986058, -120.626572],
-    "message": "Dos Palos"
+    "name": "Dos Palos, CA"
   },
   {
     "lat_lon": [33.940014, -118.132569],
-    "message": "Downey"
+    "name": "Downey, CA"
   },
   {
     "lat_lon": [34.13945,  -117.977286],
-    "message": "Duarte"
+    "name": "Duarte, CA"
   },
   {
     "lat_lon": [37.702153, -121.935792],
-    "message": "Dublin"
+    "name": "Dublin, CA"
   },
   {
     "lat_lon": [41.208208, -122.271953],
-    "message": "Dunsmuir"
+    "name": "Dunsmuir, CA"
   },
   {
     "lat_lon": [37.468828, -122.141075],
-    "message": "East Palo Alto"
+    "name": "East Palo Alto, CA"
   },
   {
     "lat_lon": [33.963056, -117.563889],
-    "message": "Eastvale"
+    "name": "Eastvale, CA"
   },
   {
     "lat_lon": [32.794772, -116.962528],
-    "message": "El Cajon"
+    "name": "El Cajon, CA"
   },
   {
     "lat_lon": [32.792,  -115.563050],
-    "message": "El Centro"
+    "name": "El Centro, CA"
   },
   {
     "lat_lon": [37.916133, -122.310764],
-    "message": "El Cerrito"
+    "name": "El Cerrito, CA"
   },
   {
     "lat_lon": [34.068622, -118.027567],
-    "message": "El Monte"
+    "name": "El Monte, CA"
   },
   {
     "lat_lon": [33.919181, -118.416464],
-    "message": "El Segundo"
+    "name": "El Segundo, CA"
   },
   {
     "lat_lon": [38.4088, -121.371617],
-    "message": "Elk Grove"
+    "name": "Elk Grove, CA"
   },
   {
     "lat_lon": [37.831317, -122.285247],
-    "message": "Emeryville"
+    "name": "Emeryville, CA"
   },
   {
     "lat_lon": [33.036986, -117.291983],
-    "message": "Encinitas"
+    "name": "Encinitas, CA"
   },
   {
     "lat_lon": [37.797428, -120.996603],
-    "message": "Escalon"
+    "name": "Escalon, CA"
   },
   {
     "lat_lon": [33.119208, -117.086422],
-    "message": "Escondido"
+    "name": "Escondido, CA"
   },
   {
     "lat_lon": [41.456806, -122.894756],
-    "message": "Etna"
+    "name": "Etna, CA"
   },
   {
     "lat_lon": [40.802072, -124.163672],
-    "message": "Eureka"
+    "name": "Eureka, CA"
   },
   {
     "lat_lon": [36.296061, -119.142053],
-    "message": "Exeter"
+    "name": "Exeter, CA"
   },
   {
     "lat_lon": [38.249358, -122.039967],
-    "message": "Fairfield"
+    "name": "Fairfield, CA"
   },
   {
     "lat_lon": [36.297728, -119.206778],
-    "message": "Farmersville"
+    "name": "Farmersville, CA"
   },
   {
     "lat_lon": [40.576242, -124.263944],
-    "message": "Ferndale"
+    "name": "Ferndale, CA"
   },
   {
     "lat_lon": [34.399164, -118.918153],
-    "message": "Fillmore"
+    "name": "Fillmore, CA"
   },
   {
     "lat_lon": [36.858839, -120.456008],
-    "message": "Firebaugh"
+    "name": "Firebaugh, CA"
   },
   {
     "lat_lon": [38.677958, -121.176058],
-    "message": "Folsom"
+    "name": "Folsom, CA"
   },
   {
     "lat_lon": [34.092233, -117.435047],
-    "message": "Fontana"
+    "name": "Fontana, CA"
   },
   {
     "lat_lon": [39.445722, -123.805292],
-    "message": "Fort Bragg"
+    "name": "Fort Bragg, CA"
   },
   {
     "lat_lon": [41.663864, -124.252892],
-    "message": "Fort Jones"
+    "name": "Fort Jones, CA"
   },
   {
     "lat_lon": [40.598186, -124.157275],
-    "message": "Fortuna"
+    "name": "Fortuna, CA"
   },
   {
     "lat_lon": [37.558547, -122.271078],
-    "message": "Foster City"
+    "name": "Foster City, CA"
   },
   {
     "lat_lon": [33.709186, -117.953669],
-    "message": "Fountain Valley"
+    "name": "Fountain Valley, CA"
   },
   {
     "lat_lon": [36.630506, -119.678469],
-    "message": "Fowler"
+    "name": "Fowler, CA"
   },
   {
     "lat_lon": [37.548269, -121.988572],
-    "message": "Fremont"
+    "name": "Fremont, CA"
   },
   {
     "lat_lon": [36.746842, -119.772586],
-    "message": "Fresno"
+    "name": "Fresno, CA"
   },
   {
     "lat_lon": [33.870292, -117.925339],
-    "message": "Fullerton"
+    "name": "Fullerton, CA"
   },
   {
     "lat_lon": [38.254636, -121.299947],
-    "message": "Galt"
+    "name": "Galt, CA"
   },
   {
     "lat_lon": [33.773906, -117.941447],
-    "message": "Garden Grove"
+    "name": "Garden Grove, CA"
   },
   {
     "lat_lon": [33.88835,  -118.308961],
-    "message": "Gardena"
+    "name": "Gardena, CA"
   },
   {
     "lat_lon": [37.005783, -121.568275],
-    "message": "Gilroy"
+    "name": "Gilroy, CA"
   },
   {
     "lat_lon": [34.142508, -118.255075],
-    "message": "Glendale"
+    "name": "Glendale, CA"
   },
   {
     "lat_lon": [34.136119, -117.865339],
-    "message": "Glendora"
+    "name": "Glendora, CA"
   },
   {
     "lat_lon": [34.435828, -119.827639],
-    "message": "Goleta"
+    "name": "Goleta, CA"
   },
   {
     "lat_lon": [36.506628, -121.444381],
-    "message": "Gonzales"
+    "name": "Gonzales, CA"
   },
   {
     "lat_lon": [34.033903, -117.313653],
-    "message": "Grand Terrace"
+    "name": "Grand Terrace, CA"
   },
   {
     "lat_lon": [39.219061, -121.061061],
-    "message": "Grass Valley"
+    "name": "Grass Valley, CA"
   },
   {
     "lat_lon": [36.3208, -121.243814],
-    "message": "Greenfield"
+    "name": "Greenfield, CA"
   },
   {
     "lat_lon": [39.363778, -121.693583],
-    "message": "Gridley"
+    "name": "Gridley, CA"
   },
   {
     "lat_lon": [35.121642, -120.621283],
-    "message": "Grover Beach"
+    "name": "Grover Beach, CA"
   },
   {
     "lat_lon": [34.971644, -120.571836],
-    "message": "Guadalupe"
+    "name": "Guadalupe, CA"
   },
   {
     "lat_lon": [37.257717, -120.998814],
-    "message": "Gustine"
+    "name": "Gustine, CA"
   },
   {
     "lat_lon": [37.463553, -122.428586],
-    "message": "Half Moon Bay"
+    "name": "Half Moon Bay, CA"
   },
   {
     "lat_lon": [36.32745,  -119.645683],
-    "message": "Hanford"
+    "name": "Hanford, CA"
   },
   {
     "lat_lon": [33.831403, -118.072842],
-    "message": "Hawaiian Gardens"
+    "name": "Hawaiian Gardens, CA"
   },
   {
     "lat_lon": [33.916403, -118.352575],
-    "message": "Hawthorne"
+    "name": "Hawthorne, CA"
   },
   {
     "lat_lon": [37.668819, -122.080797],
-    "message": "Hayward"
+    "name": "Hayward, CA"
   },
   {
     "lat_lon": [38.610467, -122.869161],
-    "message": "Healdsburg"
+    "name": "Healdsburg, CA"
   },
   {
     "lat_lon": [33.747519, -116.971967],
-    "message": "Hemet"
+    "name": "Hemet, CA"
   },
   {
     "lat_lon": [38.017144, -122.288581],
-    "message": "Hercules"
+    "name": "Hercules, CA"
   },
   {
     "lat_lon": [33.862236, -118.399519],
-    "message": "Hermosa Beach"
+    "name": "Hermosa Beach, CA"
   },
   {
     "lat_lon": [34.426389, -117.300878],
-    "message": "Hesperia"
+    "name": "Hesperia, CA"
   },
   {
     "lat_lon": [34.160283, -118.652311],
-    "message": "Hidden Hills"
+    "name": "Hidden Hills, CA"
   },
   {
     "lat_lon": [34.128344, -117.208650],
-    "message": "Highland"
+    "name": "Highland, CA"
   },
   {
     "lat_lon": [36.852453, -121.401603],
-    "message": "Hollister"
+    "name": "Hollister, CA"
   },
   {
     "lat_lon": [32.811161, -115.380264],
-    "message": "Holtville"
+    "name": "Holtville, CA"
   },
   {
     "lat_lon": [37.602725, -120.866481],
-    "message": "Hughson"
+    "name": "Hughson, CA"
   },
   {
     "lat_lon": [33.660297, -117.999225],
-    "message": "Huntington Beach"
+    "name": "Huntington Beach, CA"
   },
   {
     "lat_lon": [33.981681, -118.225072],
-    "message": "Huntington Park"
+    "name": "Huntington Park, CA"
   },
   {
     "lat_lon": [36.202731, -120.102917],
-    "message": "Huron"
+    "name": "Huron, CA"
   },
   {
     "lat_lon": [32.847553, -115.569439],
-    "message": "Imperial"
+    "name": "Imperial, CA"
   },
   {
     "lat_lon": [32.583944, -117.113086],
-    "message": "Imperial Beach"
+    "name": "Imperial Beach, CA"
   },
   {
     "lat_lon": [33.717631, -116.340756],
-    "message": "Indian Wells"
+    "name": "Indian Wells, CA"
   },
   {
     "lat_lon": [33.720578, -116.215561],
-    "message": "Indio"
+    "name": "Indio, CA"
   },
   {
     "lat_lon": [34.019733, -117.958675],
-    "message": "Industry"
+    "name": "Industry, CA"
   },
   {
     "lat_lon": [33.961681, -118.353131],
-    "message": "Inglewood"
+    "name": "Inglewood, CA"
   },
   {
     "lat_lon": [38.352692, -120.932717],
-    "message": "Ione"
+    "name": "Ione, CA"
   },
   {
     "lat_lon": [33.683947, -117.794694],
-    "message": "Irvine"
+    "name": "Irvine, CA"
   },
   {
     "lat_lon": [34.106953, -117.935342],
-    "message": "Irwindale"
+    "name": "Irwindale, CA"
   },
   {
     "lat_lon": [38.161861, -121.611622],
-    "message": "Isleton"
+    "name": "Isleton, CA"
   },
   {
     "lat_lon": [38.348803, -120.774103],
-    "message": "Jackson"
+    "name": "Jackson, CA"
   },
   {
     "lat_lon": [33.999522, -117.475397],
-    "message": "Jurupa Valley"
+    "name": "Jurupa Valley, CA"
   },
   {
     "lat_lon": [36.723558, -120.059878],
-    "message": "Kerman"
+    "name": "Kerman, CA"
   },
   {
     "lat_lon": [36.212744, -121.126028],
-    "message": "King City"
+    "name": "King City, CA"
   },
   {
     "lat_lon": [36.513839, -119.554017],
-    "message": "Kingsburg"
+    "name": "Kingsburg, CA"
   },
   {
     "lat_lon": [34.206817, -118.200028],
-    "message": "La Cañada Flintridge"
+    "name": "La Cañada Flintridge, CA"
   },
   {
     "lat_lon": [33.931958, -117.946172],
-    "message": "La Habra"
+    "name": "La Habra, CA"
   },
   {
     "lat_lon": [33.960847, -117.950619],
-    "message": "La Habra Heights"
+    "name": "La Habra Heights, CA"
   },
   {
     "lat_lon": [32.767828, -117.023083],
-    "message": "La Mesa"
+    "name": "La Mesa, CA"
   },
   {
     "lat_lon": [33.917236, -118.012008],
-    "message": "La Mirada"
+    "name": "La Mirada, CA"
   },
   {
     "lat_lon": [33.846403, -118.046731],
-    "message": "La Palma"
+    "name": "La Palma, CA"
   },
   {
     "lat_lon": [34.020011, -117.949508],
-    "message": "La Puente"
+    "name": "La Puente, CA"
   },
   {
     "lat_lon": [33.646692, -116.310008],
-    "message": "La Quinta"
+    "name": "La Quinta, CA"
   },
   {
     "lat_lon": [34.100842, -117.767836],
-    "message": "La Verne"
+    "name": "La Verne, CA"
   },
   {
     "lat_lon": [37.885758, -122.118019],
-    "message": "Lafayette"
+    "name": "Lafayette, CA"
   },
   {
     "lat_lon": [33.542247, -117.783111],
-    "message": "Laguna Beach"
+    "name": "Laguna Beach, CA"
   },
   {
     "lat_lon": [33.599722, -117.699444],
-    "message": "Laguna Hills"
+    "name": "Laguna Hills, CA"
   },
   {
     "lat_lon": [33.522525, -117.707553],
-    "message": "Laguna Niguel"
+    "name": "Laguna Niguel, CA"
   },
   {
     "lat_lon": [33.6103, -117.725331],
-    "message": "Laguna Woods"
+    "name": "Laguna Woods, CA"
   },
   {
     "lat_lon": [33.668078, -117.327261],
-    "message": "Lake Elsinore"
+    "name": "Lake Elsinore, CA"
   },
   {
     "lat_lon": [33.646967, -117.689217],
-    "message": "Lake Forest"
+    "name": "Lake Forest, CA"
   },
   {
     "lat_lon": [39.04295,  -122.915828],
-    "message": "Lakeport"
+    "name": "Lakeport, CA"
   },
   {
     "lat_lon": [33.853628, -118.133956],
-    "message": "Lakewood"
+    "name": "Lakewood, CA"
   },
   {
     "lat_lon": [34.686786, -118.154164],
-    "message": "Lancaster"
+    "name": "Lancaster, CA"
   },
   {
     "lat_lon": [37.934092, -122.535253],
-    "message": "Larkspur"
+    "name": "Larkspur, CA"
   },
   {
     "lat_lon": [37.822706, -121.276611],
-    "message": "Lathrop"
+    "name": "Lathrop, CA"
   },
   {
     "lat_lon": [33.887236, -118.352575],
-    "message": "Lawndale"
+    "name": "Lawndale, CA"
   },
   {
     "lat_lon": [32.742553, -117.031417],
-    "message": "Lemon Grove"
+    "name": "Lemon Grove, CA"
   },
   {
     "lat_lon": [36.300783, -119.782911],
-    "message": "Lemoore"
+    "name": "Lemoore, CA"
   },
   {
     "lat_lon": [38.891564, -121.293008],
-    "message": "Lincoln"
+    "name": "Lincoln, CA"
   },
   {
     "lat_lon": [36.203006, -119.088161],
-    "message": "Lindsay"
+    "name": "Lindsay, CA"
   },
   {
     "lat_lon": [36.983561, -121.980517],
-    "message": "Live Oak"
+    "name": "Live Oak, CA"
   },
   {
     "lat_lon": [37.681875, -121.768008],
-    "message": "Livermore"
+    "name": "Livermore, CA"
   },
   {
     "lat_lon": [37.386883, -120.723533],
-    "message": "Livingston"
+    "name": "Livingston, CA"
   },
   {
     "lat_lon": [38.134147, -121.272219],
-    "message": "Lodi"
+    "name": "Lodi, CA"
   },
   {
     "lat_lon": [34.048347, -117.261153],
-    "message": "Loma Linda"
+    "name": "Loma Linda, CA"
   },
   {
     "lat_lon": [33.792239, -118.315072],
-    "message": "Lomita"
+    "name": "Lomita, CA"
   },
   {
     "lat_lon": [34.63915,  -120.457942],
-    "message": "Lompoc"
+    "name": "Lompoc, CA"
   },
   {
     "lat_lon": [33.768322, -118.195617],
-    "message": "Long Beach"
+    "name": "Long Beach, CA"
   },
   {
     "lat_lon": [33.803072, -118.072564],
-    "message": "Los Alamitos"
+    "name": "Los Alamitos, CA"
   },
   {
     "lat_lon": [33.796331, -118.118119],
-    "message": "Los Altos"
+    "name": "Los Altos, CA"
   },
   {
     "lat_lon": [34.052233, -118.243686],
-    "message": "Los Angeles"
+    "name": "Los Angeles, CA"
   },
   {
     "lat_lon": [37.058278, -120.849914],
-    "message": "Los Banos"
+    "name": "Los Banos, CA"
   },
   {
     "lat_lon": [39.676294, -120.241039],
-    "message": "Loyalton"
+    "name": "Loyalton, CA"
   },
   {
     "lat_lon": [33.930292, -118.211461],
-    "message": "Lynwood"
+    "name": "Lynwood, CA"
   },
   {
     "lat_lon": [36.961336, -120.060717],
-    "message": "Madera"
+    "name": "Madera, CA"
   },
   {
     "lat_lon": [34.005008, -118.810172],
-    "message": "Malibu"
+    "name": "Malibu, CA"
   },
   {
     "lat_lon": [33.884736, -118.410908],
-    "message": "Manhattan Beach"
+    "name": "Manhattan Beach, CA"
   },
   {
     "lat_lon": [37.797428, -121.216053],
-    "message": "Manteca"
+    "name": "Manteca, CA"
   },
   {
     "lat_lon": [35.058858, -119.400950],
-    "message": "Maricopa"
+    "name": "Maricopa, CA"
   },
   {
     "lat_lon": [36.684403, -121.802172],
-    "message": "Marina"
+    "name": "Marina, CA"
   },
   {
     "lat_lon": [38.019367, -122.134133],
-    "message": "Martinez"
+    "name": "Martinez, CA"
   },
   {
     "lat_lon": [39.145725, -121.591356],
-    "message": "Marysville"
+    "name": "Marysville, CA"
   },
   {
     "lat_lon": [33.986681, -118.185350],
-    "message": "Maywood"
+    "name": "Maywood, CA"
   },
   {
     "lat_lon": [35.678011, -119.229275],
-    "message": "McFarland"
+    "name": "McFarland, CA"
   },
   {
     "lat_lon": [36.753561, -120.381558],
-    "message": "Mendota"
+    "name": "Mendota, CA"
   },
   {
     "lat_lon": [33.678333, -117.166944],
-    "message": "Menifee"
+    "name": "Menifee, CA"
   },
   {
     "lat_lon": [37.453828, -122.182186],
-    "message": "Menlo Park"
+    "name": "Menlo Park, CA"
   },
   {
     "lat_lon": [37.302164, -120.482967],
-    "message": "Merced"
+    "name": "Merced, CA"
   },
   {
     "lat_lon": [37.906036, -122.544975],
-    "message": "Mill Valley"
+    "name": "Mill Valley, CA"
   },
   {
     "lat_lon": [37.598547, -122.387194],
-    "message": "Millbrae"
+    "name": "Millbrae, CA"
   },
   {
     "lat_lon": [37.428272, -121.906625],
-    "message": "Milpitas"
+    "name": "Milpitas, CA"
   },
   {
     "lat_lon": [33.600022, -117.671994],
-    "message": "Mission Viejo"
+    "name": "Mission Viejo, CA"
   },
   {
     "lat_lon": [37.639097, -120.996878],
-    "message": "Modesto"
+    "name": "Modesto, CA"
   },
   {
     "lat_lon": [34.144428, -118.001947],
-    "message": "Monrovia"
+    "name": "Monrovia, CA"
   },
   {
     "lat_lon": [41.728197, -122.527800],
-    "message": "Montague"
+    "name": "Montague, CA"
   },
   {
     "lat_lon": [34.077511, -117.689778],
-    "message": "Montclair"
+    "name": "Montclair, CA"
   },
   {
     "lat_lon": [37.236333, -121.992458],
-    "message": "Monte Sereno"
+    "name": "Monte Sereno, CA"
   },
   {
     "lat_lon": [34.016506, -118.113753],
-    "message": "Montebello"
+    "name": "Montebello, CA"
   },
   {
     "lat_lon": [36.600239, -121.894675],
-    "message": "Monterey"
+    "name": "Monterey, CA"
   },
   {
     "lat_lon": [34.062511, -118.122847],
-    "message": "Monterey Park"
+    "name": "Monterey Park, CA"
   },
   {
     "lat_lon": [34.144897, -118.268742],
-    "message": "Moorpark"
+    "name": "Moorpark, CA"
   },
   {
     "lat_lon": [33.942467, -117.229672],
-    "message": "Moreno Valley"
+    "name": "Moreno Valley, CA"
   },
   {
     "lat_lon": [37.1305, -121.654389],
-    "message": "Morgan Hill"
+    "name": "Morgan Hill, CA"
   },
   {
     "lat_lon": [35.365808, -120.849900],
-    "message": "Morro Bay"
+    "name": "Morro Bay, CA"
   },
   {
     "lat_lon": [41.410806, -122.194575],
-    "message": "Mount Shasta"
+    "name": "Mount Shasta, CA"
   },
   {
     "lat_lon": [37.386053, -122.083850],
-    "message": "Mountain View"
+    "name": "Mountain View, CA"
   },
   {
     "lat_lon": [33.553914, -117.213922],
-    "message": "Murrieta"
+    "name": "Murrieta, CA"
   },
   {
     "lat_lon": [38.297539, -122.286864],
-    "message": "Napa"
+    "name": "Napa, CA"
   },
   {
     "lat_lon": [32.678108, -117.099197],
-    "message": "National City"
+    "name": "National City, CA"
   },
   {
     "lat_lon": [34.848061, -114.614133],
-    "message": "Needles"
+    "name": "Needles, CA"
   },
   {
     "lat_lon": [39.261561, -121.016058],
-    "message": "Nevada City"
+    "name": "Nevada City, CA"
   },
   {
     "lat_lon": [37.529658, -122.040239],
-    "message": "Newark"
+    "name": "Newark, CA"
   },
   {
     "lat_lon": [37.313828, -121.020761],
-    "message": "Newman"
+    "name": "Newman, CA"
   },
   {
     "lat_lon": [33.618911, -117.928947],
-    "message": "Newport Beach"
+    "name": "Newport Beach, CA"
   },
   {
     "lat_lon": [33.931125, -117.548661],
-    "message": "Norco"
+    "name": "Norco, CA"
   },
   {
     "lat_lon": [33.902236, -118.081733],
-    "message": "Norwalk"
+    "name": "Norwalk, CA"
   },
   {
     "lat_lon": [38.107419, -122.569703],
-    "message": "Novato"
+    "name": "Novato, CA"
   },
   {
     "lat_lon": [37.766594, -120.847153],
-    "message": "Oakdale"
+    "name": "Oakdale, CA"
   },
   {
     "lat_lon": [37.804364, -122.271114],
-    "message": "Oakland"
+    "name": "Oakland, CA"
   },
   {
     "lat_lon": [37.997422, -121.712453],
-    "message": "Oakley"
+    "name": "Oakley, CA"
   },
   {
     "lat_lon": [33.195869, -117.379483],
-    "message": "Oceanside"
+    "name": "Oceanside, CA"
   },
   {
     "lat_lon": [34.44805,  -119.242889],
-    "message": "Ojai"
+    "name": "Ojai, CA"
   },
   {
     "lat_lon": [34.063344, -117.650889],
-    "message": "Ontario"
+    "name": "Ontario, CA"
   },
   {
     "lat_lon": [33.787794, -117.853111],
-    "message": "Orange"
+    "name": "Orange, CA"
   },
   {
     "lat_lon": [36.624394, -119.313731],
-    "message": "Orange Cove"
+    "name": "Orange Cove, CA"
   },
   {
     "lat_lon": [37.877147, -122.179689],
-    "message": "Orinda"
+    "name": "Orinda, CA"
   },
   {
     "lat_lon": [39.747381, -122.196375],
-    "message": "Orland"
+    "name": "Orland, CA"
   },
   {
     "lat_lon": [39.513775, -121.556358],
-    "message": "Oroville"
+    "name": "Oroville, CA"
   },
   {
     "lat_lon": [34.197506, -119.177053],
-    "message": "Oxnard"
+    "name": "Oxnard, CA"
   },
   {
     "lat_lon": [36.617736, -121.916622],
-    "message": "Pacific Grove"
+    "name": "Pacific Grove, CA"
   },
   {
     "lat_lon": [37.613825, -122.486919],
-    "message": "Pacifica"
+    "name": "Pacifica, CA"
   },
   {
     "lat_lon": [33.722244, -116.374456],
-    "message": "Palm Desert"
+    "name": "Palm Desert, CA"
   },
   {
     "lat_lon": [33.830297, -116.545292],
-    "message": "Palm Springs"
+    "name": "Palm Springs, CA"
   },
   {
     "lat_lon": [34.579433, -118.116461],
-    "message": "Palmdale"
+    "name": "Palmdale, CA"
   },
   {
     "lat_lon": [37.441883, -122.143019],
-    "message": "Palo Alto"
+    "name": "Palo Alto, CA"
   },
   {
     "lat_lon": [33.800572, -118.390075],
-    "message": "Palos Verdes Estates"
+    "name": "Palos Verdes Estates, CA"
   },
   {
     "lat_lon": [33.889461, -118.159792],
-    "message": "Paramount"
+    "name": "Paramount, CA"
   },
   {
     "lat_lon": [36.611617, -119.527072],
-    "message": "Parlier"
+    "name": "Parlier, CA"
   },
   {
     "lat_lon": [34.147786, -118.144517],
-    "message": "Pasadena"
+    "name": "Pasadena, CA"
   },
   {
     "lat_lon": [35.632278, -120.664186],
-    "message": "Paso Robles"
+    "name": "Paso Robles, CA"
   },
   {
     "lat_lon": [37.4716, -121.129656],
-    "message": "Patterson"
+    "name": "Patterson, CA"
   },
   {
     "lat_lon": [33.782519, -117.228647],
-    "message": "Perris"
+    "name": "Perris, CA"
   },
   {
     "lat_lon": [38.232417, -122.636653],
-    "message": "Petaluma"
+    "name": "Petaluma, CA"
   },
   {
     "lat_lon": [33.983069, -118.096736],
-    "message": "Pico Rivera"
+    "name": "Pico Rivera, CA"
   },
   {
     "lat_lon": [37.824372, -122.231636],
-    "message": "Piedmont"
+    "name": "Piedmont, CA"
   },
   {
     "lat_lon": [38.004367, -122.298858],
-    "message": "Pinole"
+    "name": "Pinole, CA"
   },
   {
     "lat_lon": [35.142753, -120.641283],
-    "message": "Pismo Beach"
+    "name": "Pismo Beach, CA"
   },
   {
     "lat_lon": [38.027975, -121.884681],
-    "message": "Pittsburg"
+    "name": "Pittsburg, CA"
   },
   {
     "lat_lon": [33.872236, -117.870336],
-    "message": "Placentia"
+    "name": "Placentia, CA"
   },
   {
     "lat_lon": [38.729625, -120.798547],
-    "message": "Placerville"
+    "name": "Placerville, CA"
   },
   {
     "lat_lon": [37.947978, -122.060797],
-    "message": "Pleasant Hill"
+    "name": "Pleasant Hill, CA"
   },
   {
     "lat_lon": [37.662431, -121.874678],
-    "message": "Pleasanton"
+    "name": "Pleasanton, CA"
   },
   {
     "lat_lon": [38.481853, -120.844658],
-    "message": "Plymouth"
+    "name": "Plymouth, CA"
   },
   {
     "lat_lon": [38.908797, -123.693072],
-    "message": "Point Arena"
+    "name": "Point Arena, CA"
   },
   {
     "lat_lon": [34.055228, -117.752306],
-    "message": "Pomona"
+    "name": "Pomona, CA"
   },
   {
     "lat_lon": [34.180728, -119.208158],
-    "message": "Port Hueneme"
+    "name": "Port Hueneme, CA"
   },
   {
     "lat_lon": [36.065231, -119.016767],
-    "message": "Porterville"
+    "name": "Porterville, CA"
   },
   {
     "lat_lon": [39.810458, -120.469103],
-    "message": "Portola"
+    "name": "Portola, CA"
   },
   {
     "lat_lon": [32.962822, -117.035864],
-    "message": "Poway"
+    "name": "Poway, CA"
   },
   {
     "lat_lon": [38.589072, -121.302728],
-    "message": "Rancho Cordova"
+    "name": "Rancho Cordova, CA"
   },
   {
     "lat_lon": [34.1064, -117.593108],
-    "message": "Rancho Cucamonga"
+    "name": "Rancho Cucamonga, CA"
   },
   {
     "lat_lon": [33.739744, -116.412789],
-    "message": "Rancho Mirage"
+    "name": "Rancho Mirage, CA"
   },
   {
     "lat_lon": [33.744461, -118.387017],
-    "message": "Rancho Palos Verdes"
+    "name": "Rancho Palos Verdes, CA"
   },
   {
     "lat_lon": [33.640856, -117.603103],
-    "message": "Rancho Santa Margarita"
+    "name": "Rancho Santa Margarita, CA"
   },
   {
     "lat_lon": [40.178489, -122.235831],
-    "message": "Red Bluff"
+    "name": "Red Bluff, CA"
   },
   {
     "lat_lon": [40.586539, -122.391675],
-    "message": "Redding"
+    "name": "Redding, CA"
   },
   {
     "lat_lon": [34.055569, -117.182539],
-    "message": "Redlands"
+    "name": "Redlands, CA"
   },
   {
     "lat_lon": [33.849183, -118.388408],
-    "message": "Redondo Beach"
+    "name": "Redondo Beach, CA"
   },
   {
     "lat_lon": [37.485214, -122.236356],
-    "message": "Redwood City"
+    "name": "Redwood City, CA"
   },
   {
     "lat_lon": [36.596339, -119.450403],
-    "message": "Reedley"
+    "name": "Reedley, CA"
   },
   {
     "lat_lon": [34.1064, -117.370325],
-    "message": "Rialto"
+    "name": "Rialto, CA"
   },
   {
     "lat_lon": [37.935758, -122.347750],
-    "message": "Richmond"
+    "name": "Richmond, CA"
   },
   {
     "lat_lon": [35.622456, -117.670897],
-    "message": "Ridgecrest"
+    "name": "Ridgecrest, CA"
   },
   {
     "lat_lon": [40.4993, -124.106436],
-    "message": "Rio Dell"
+    "name": "Rio Dell, CA"
   },
   {
     "lat_lon": [38.15575,  -121.691344],
-    "message": "Rio Vista"
+    "name": "Rio Vista, CA"
   },
   {
     "lat_lon": [37.739453, -121.135414],
-    "message": "Ripon"
+    "name": "Ripon, CA"
   },
   {
     "lat_lon": [37.736039, -120.935489],
-    "message": "Riverbank"
+    "name": "Riverbank, CA"
   },
   {
     "lat_lon": [33.95335,  -117.396156],
-    "message": "Riverside"
+    "name": "Riverside, CA"
   },
   {
     "lat_lon": [38.790733, -121.235783],
-    "message": "Rocklin"
+    "name": "Rocklin, CA"
   },
   {
     "lat_lon": [38.339636, -122.701097],
-    "message": "Rohnert Park"
+    "name": "Rohnert Park, CA"
   },
   {
     "lat_lon": [33.756961, -118.353961],
-    "message": "Rolling Hills"
+    "name": "Rolling Hills, CA"
   },
   {
     "lat_lon": [33.787794, -118.358128],
-    "message": "Rolling Hills Estates"
+    "name": "Rolling Hills Estates, CA"
   },
   {
     "lat_lon": [34.080564, -118.072847],
-    "message": "Rosemead"
+    "name": "Rosemead, CA"
   },
   {
     "lat_lon": [38.752122, -121.288006],
-    "message": "Roseville"
+    "name": "Roseville, CA"
   },
   {
     "lat_lon": [38.581572, -121.494400],
-    "message": "Sacramento"
+    "name": "Sacramento, CA"
   },
   {
     "lat_lon": [36.677736, -121.655500],
-    "message": "Salinas"
+    "name": "Salinas, CA"
   },
   {
     "lat_lon": [34.108344, -117.289764],
-    "message": "San Bernardino"
+    "name": "San Bernardino, CA"
   },
   {
     "lat_lon": [37.630489, -122.411083],
-    "message": "San Bruno"
+    "name": "San Bruno, CA"
   },
   {
     "lat_lon": [37.507158, -122.260522],
-    "message": "San Carlos"
+    "name": "San Carlos, CA"
   },
   {
     "lat_lon": [33.426972, -117.611992],
-    "message": "San Clemente"
+    "name": "San Clemente, CA"
   },
   {
     "lat_lon": [32.715328, -117.157256],
-    "message": "San Diego"
+    "name": "San Diego, CA"
   },
   {
     "lat_lon": [34.106675, -117.806725],
-    "message": "San Dimas"
+    "name": "San Dimas, CA"
   },
   {
     "lat_lon": [34.281947, -118.438972],
-    "message": "San Fernando"
+    "name": "San Fernando, CA"
   },
   {
     "lat_lon": [37.774931, -122.419417],
-    "message": "San Francisco"
+    "name": "San Francisco, CA"
   },
   {
     "lat_lon": [34.096111, -118.105833],
-    "message": "San Gabriel"
+    "name": "San Gabriel, CA"
   },
   {
     "lat_lon": [33.783908, -116.958636],
-    "message": "San Jacinto"
+    "name": "San Jacinto, CA"
   },
   {
     "lat_lon": [36.606617, -120.189044],
-    "message": "San Joaquin"
+    "name": "San Joaquin, CA"
   },
   {
     "lat_lon": [37.339386, -121.894956],
-    "message": "San Jose"
+    "name": "San Jose, CA"
   },
   {
     "lat_lon": [36.845511, -121.537997],
-    "message": "San Juan Bautista"
+    "name": "San Juan Bautista, CA"
   },
   {
     "lat_lon": [33.501692, -117.662550],
-    "message": "San Juan Capistrano"
+    "name": "San Juan Capistrano, CA"
   },
   {
     "lat_lon": [37.724931, -122.156078],
-    "message": "San Leandro"
+    "name": "San Leandro, CA"
   },
   {
     "lat_lon": [35.282753, -120.659617],
-    "message": "San Luis Obispo"
+    "name": "San Luis Obispo, CA"
   },
   {
     "lat_lon": [33.143372, -117.166144],
-    "message": "San Marcos"
+    "name": "San Marcos, CA"
   },
   {
     "lat_lon": [34.121397, -118.106458],
-    "message": "San Marino"
+    "name": "San Marino, CA"
   },
   {
     "lat_lon": [37.562992, -122.325525],
-    "message": "San Mateo"
+    "name": "San Mateo, CA"
   },
   {
     "lat_lon": [37.962147, -122.345525],
-    "message": "San Pablo"
+    "name": "San Pablo, CA"
   },
   {
     "lat_lon": [37.973536, -122.531086],
-    "message": "San Rafael"
+    "name": "San Rafael, CA"
   },
   {
     "lat_lon": [37.779928, -121.978014],
-    "message": "San Ramon"
+    "name": "San Ramon, CA"
   },
   {
     "lat_lon": [36.617183, -121.848286],
-    "message": "Sand City"
+    "name": "Sand City, CA"
   },
   {
     "lat_lon": [36.708006, -119.555964],
-    "message": "Sanger"
+    "name": "Sanger, CA"
   },
   {
     "lat_lon": [33.745572, -117.867833],
-    "message": "Santa Ana"
+    "name": "Santa Ana, CA"
   },
   {
     "lat_lon": [34.420831, -119.698189],
-    "message": "Santa Barbara"
+    "name": "Santa Barbara, CA"
   },
   {
     "lat_lon": [37.354108, -121.955236],
-    "message": "Santa Clara"
+    "name": "Santa Clara, CA"
   },
   {
     "lat_lon": [34.391664, -118.542586],
-    "message": "Santa Clarita"
+    "name": "Santa Clarita, CA"
   },
   {
     "lat_lon": [36.974117, -122.030797],
-    "message": "Santa Cruz"
+    "name": "Santa Cruz, CA"
   },
   {
     "lat_lon": [33.947236, -118.085344],
-    "message": "Santa Fe Springs"
+    "name": "Santa Fe Springs, CA"
   },
   {
     "lat_lon": [34.953033, -120.435719],
-    "message": "Santa Maria"
+    "name": "Santa Maria, CA"
   },
   {
     "lat_lon": [34.019453, -118.491192],
-    "message": "Santa Monica"
+    "name": "Santa Monica, CA"
   },
   {
     "lat_lon": [34.354167, -119.059269],
-    "message": "Santa Paula"
+    "name": "Santa Paula, CA"
   },
   {
     "lat_lon": [38.440467, -122.714431],
-    "message": "Santa Rosa"
+    "name": "Santa Rosa, CA"
   },
   {
     "lat_lon": [32.838383, -116.973917],
-    "message": "Santee"
+    "name": "Santee, CA"
   },
   {
     "lat_lon": [37.263833, -122.023014],
-    "message": "Saratoga"
+    "name": "Saratoga, CA"
   },
   {
     "lat_lon": [37.859094, -122.485250],
-    "message": "Sausalito"
+    "name": "Sausalito, CA"
   },
   {
     "lat_lon": [37.051061, -122.014683],
-    "message": "Scotts Valley"
+    "name": "Scotts Valley, CA"
   },
   {
     "lat_lon": [33.741406, -118.104786],
-    "message": "Seal Beach"
+    "name": "Seal Beach, CA"
   },
   {
     "lat_lon": [33.819361, -118.366647],
-    "message": "Seaside"
+    "name": "Seaside, CA"
   },
   {
     "lat_lon": [38.402136, -122.823881],
-    "message": "Sebastopol"
+    "name": "Sebastopol, CA"
   },
   {
     "lat_lon": [36.570783, -119.612075],
-    "message": "Selma"
+    "name": "Selma, CA"
   },
   {
     "lat_lon": [35.500514, -119.271775],
-    "message": "Shafter"
+    "name": "Shafter, CA"
   },
   {
     "lat_lon": [40.680428, -122.370842],
-    "message": "Shasta Lake"
+    "name": "Shasta Lake, CA"
   },
   {
     "lat_lon": [34.161672, -118.052847],
-    "message": "Sierra Madre"
+    "name": "Sierra Madre, CA"
   },
   {
     "lat_lon": [33.804461, -118.167847],
-    "message": "Signal Hill"
+    "name": "Signal Hill, CA"
   },
   {
     "lat_lon": [34.269447, -118.781483],
-    "message": "Simi Valley"
+    "name": "Simi Valley, CA"
   },
   {
     "lat_lon": [32.991156, -117.271147],
-    "message": "Soledad"
+    "name": "Soledad, CA"
   },
   {
     "lat_lon": [34.595819, -120.137647],
-    "message": "Solvang"
+    "name": "Solvang, CA"
   },
   {
     "lat_lon": [38.291858, -122.458036],
-    "message": "Sonoma"
+    "name": "Sonoma, CA"
   },
   {
     "lat_lon": [37.984092, -120.382139],
-    "message": "Sonora"
+    "name": "Sonora, CA"
   },
   {
     "lat_lon": [34.051956, -118.046733],
-    "message": "South El Monte"
+    "name": "South El Monte, CA"
   },
   {
     "lat_lon": [33.954736, -118.212017],
-    "message": "South Gate"
+    "name": "South Gate, CA"
   },
   {
     "lat_lon": [38.939925, -119.977186],
-    "message": "South Lake Tahoe"
+    "name": "South Lake Tahoe, CA"
   },
   {
     "lat_lon": [34.116119, -118.150350],
-    "message": "South Pasadena"
+    "name": "South Pasadena, CA"
   },
   {
     "lat_lon": [37.654656, -122.407750],
-    "message": "South San Francisco"
+    "name": "South San Francisco, CA"
   },
   {
     "lat_lon": [38.505242, -122.470386],
-    "message": "St. Helena"
+    "name": "St. Helena, CA"
   },
   {
     "lat_lon": [33.802517, -117.993117],
-    "message": "Stanton"
+    "name": "Stanton, CA"
   },
   {
     "lat_lon": [37.957703, -121.290781],
-    "message": "Stockton"
+    "name": "Stockton, CA"
   },
   {
     "lat_lon": [38.238247, -122.040244],
-    "message": "Suisun City"
+    "name": "Suisun City, CA"
   },
   {
     "lat_lon": [37.368831, -122.036350],
-    "message": "Sunnyvale"
+    "name": "Sunnyvale, CA"
   },
   {
     "lat_lon": [40.416283, -120.653006],
-    "message": "Susanville"
+    "name": "Susanville, CA"
   },
   {
     "lat_lon": [38.392967, -120.802436],
-    "message": "Sutter Creek"
+    "name": "Sutter Creek, CA"
   },
   {
     "lat_lon": [35.142467, -119.456508],
-    "message": "Taft"
+    "name": "Taft, CA"
   },
   {
     "lat_lon": [35.132189, -118.448975],
-    "message": "Tehachapi"
+    "name": "Tehachapi, CA"
   },
   {
     "lat_lon": [40.027103, -122.123322],
-    "message": "Tehama"
+    "name": "Tehama, CA"
   },
   {
     "lat_lon": [33.493639, -117.148364],
-    "message": "Temecula"
+    "name": "Temecula, CA"
   },
   {
     "lat_lon": [34.107231, -118.057847],
-    "message": "Thousand Oaks"
+    "name": "Thousand Oaks, CA"
   },
   {
     "lat_lon": [33.83585,  -118.340628],
-    "message": "Torrance"
+    "name": "Torrance, CA"
   },
   {
     "lat_lon": [37.73965,  -121.425222],
-    "message": "Tracy"
+    "name": "Tracy, CA"
   },
   {
     "lat_lon": [41.059292, -124.143125],
-    "message": "Trinidad"
+    "name": "Trinidad, CA"
   },
   {
     "lat_lon": [36.207728, -119.347339],
-    "message": "Tulare"
+    "name": "Tulare, CA"
   },
   {
     "lat_lon": [41.955989, -121.477492],
-    "message": "Tulelake"
+    "name": "Tulelake, CA"
   },
   {
     "lat_lon": [37.494658, -120.846594],
-    "message": "Turlock"
+    "name": "Turlock, CA"
   },
   {
     "lat_lon": [33.74585,  -117.826167],
-    "message": "Tustin"
+    "name": "Tustin, CA"
   },
   {
     "lat_lon": [34.135558, -116.054169],
-    "message": "Twentynine Palms"
+    "name": "Twentynine Palms, CA"
   },
   {
     "lat_lon": [39.150172, -123.207783],
-    "message": "Ukiah"
+    "name": "Ukiah, CA"
   },
   {
     "lat_lon": [37.593392, -122.043831],
-    "message": "Union City"
+    "name": "Union City, CA"
   },
   {
     "lat_lon": [34.097511, -117.648389],
-    "message": "Upland"
+    "name": "Upland, CA"
   },
   {
     "lat_lon": [38.356578, -121.987744],
-    "message": "Vacaville"
+    "name": "Vacaville, CA"
   },
   {
     "lat_lon": [38.104086, -122.256636],
-    "message": "Vallejo"
+    "name": "Vallejo, CA"
   },
   {
     "lat_lon": [34.274639, -119.229006],
-    "message": "Ventura"
+    "name": "Ventura, CA"
   },
   {
     "lat_lon": [34.003903, -118.230072],
-    "message": "Vernon"
+    "name": "Vernon, CA"
   },
   {
     "lat_lon": [34.536108, -117.291158],
-    "message": "Victorville"
+    "name": "Victorville, CA"
   },
   {
     "lat_lon": [33.814461, -117.813111],
-    "message": "Villa Park"
+    "name": "Villa Park, CA"
   },
   {
     "lat_lon": [36.330228, -119.292058],
-    "message": "Visalia"
+    "name": "Visalia, CA"
   },
   {
     "lat_lon": [33.200036, -117.242536],
-    "message": "Vista"
+    "name": "Vista, CA"
   },
   {
     "lat_lon": [34.020289, -117.865339],
-    "message": "Walnut"
+    "name": "Walnut, CA"
   },
   {
     "lat_lon": [37.910078, -122.065183],
-    "message": "Walnut Creek"
+    "name": "Walnut Creek, CA"
   },
   {
     "lat_lon": [35.594125, -119.340947],
-    "message": "Wasco"
+    "name": "Wasco, CA"
   },
   {
     "lat_lon": [37.641319, -120.760483],
-    "message": "Waterford"
+    "name": "Waterford, CA"
   },
   {
     "lat_lon": [36.910231, -121.756894],
-    "message": "Watsonville"
+    "name": "Watsonville, CA"
   },
   {
     "lat_lon": [41.42265,  -122.386128],
-    "message": "Weed"
+    "name": "Weed, CA"
   },
   {
     "lat_lon": [34.068622, -117.938953],
-    "message": "West Covina"
+    "name": "West Covina, CA"
   },
   {
     "lat_lon": [34.090008, -118.361744],
-    "message": "West Hollywood"
+    "name": "West Hollywood, CA"
   },
   {
     "lat_lon": [38.580461, -121.530233],
-    "message": "West Sacramento"
+    "name": "West Sacramento, CA"
   },
   {
     "lat_lon": [34.145839, -118.805647],
-    "message": "Westlake Village"
+    "name": "Westlake Village, CA"
   },
   {
     "lat_lon": [33.751342, -117.993992],
-    "message": "Westminster"
+    "name": "Westminster, CA"
   },
   {
     "lat_lon": [33.037267, -115.621383],
-    "message": "Westmorland"
+    "name": "Westmorland, CA"
   },
   {
     "lat_lon": [39.009894, -121.423014],
-    "message": "Wheatland"
+    "name": "Wheatland, CA"
   },
   {
     "lat_lon": [33.979178, -118.032844],
-    "message": "Whittier"
+    "name": "Whittier, CA"
   },
   {
     "lat_lon": [33.598914, -117.280036],
-    "message": "Wildomar"
+    "name": "Wildomar, CA"
   },
   {
     "lat_lon": [39.154614, -122.149419],
-    "message": "Williams"
+    "name": "Williams, CA"
   },
   {
     "lat_lon": [39.409608, -123.355567],
-    "message": "Willits"
+    "name": "Willits, CA"
   },
   {
     "lat_lon": [39.524325, -122.193592],
-    "message": "Willows"
+    "name": "Willows, CA"
   },
   {
     "lat_lon": [38.524906, -121.970803],
-    "message": "Winters"
+    "name": "Winters, CA"
   },
   {
     "lat_lon": [36.413561, -119.098717],
-    "message": "Woodlake"
+    "name": "Woodlake, CA"
   },
   {
     "lat_lon": [38.678517, -121.773297],
-    "message": "Woodland"
+    "name": "Woodland, CA"
   },
   {
     "lat_lon": [33.888625, -117.813111],
-    "message": "Yorba Linda"
+    "name": "Yorba Linda, CA"
   },
   {
     "lat_lon": [41.735419, -122.634472],
-    "message": "Yreka"
+    "name": "Yreka, CA"
   },
   {
     "lat_lon": [39.140447, -121.616911],
-    "message": "Yuba City"
+    "name": "Yuba City, CA"
   },
   {
     "lat_lon": [34.033625, -117.043086],
-    "message": "Yucaipa"
+    "name": "Yucaipa, CA"
   }
 ];
