@@ -9,6 +9,7 @@ import {
   LayerGroup,
 } from 'react-leaflet';
 import L from 'leaflet';
+import { getOpacity } from '../helpers';
 import { basemaps } from '../constants/basemaps';
 
 const { BaseLayer, Overlay } = LayersControl;
@@ -19,10 +20,6 @@ function getBasemaps(basemaps) {
       <TileLayer url={basemap.url} />
     </BaseLayer>
   ));
-}
-
-function getOpacity(age) {
-  return (40 - age) / 40;
 }
 
 function getMarkers(apps, icon) {

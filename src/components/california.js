@@ -7,6 +7,7 @@ import {
   fetchAvailabilityRequests,
 } from '../actions';
 import { greenIcon, blueIcon, greyIcon } from '../constants/icons';
+import { getOpacity } from '../helpers';
 import Loading from './loading';
 import RfMap from './rf-map';
 
@@ -51,13 +52,16 @@ class California extends Component {
   }
 
   getCityList(cities) {
-    const orderedCities = _.takeRight(cities, 3).reverse();
+    const orderedCities = cities.reverse();
     return (
       <div>
-        {orderedCities[0] && <p key={orderedCities[0].name} className="fade-in">{orderedCities[0].name}</p>}
-        {orderedCities.slice(1,3).map(city => <p key={city.name}>{city.name}</p>)}
+        {orderedCities.map(city => (
+          <p key={city.name} style={{opacity: getOpacity(city.age)}}>
+          {city.name}
+          </p>
+        ))}
       </div>
-    );
+    )
   }
 
   render() {
