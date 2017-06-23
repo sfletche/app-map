@@ -7,6 +7,7 @@ import {
   fetchAvailabilityRequests,
 } from '../actions';
 import { greenIcon, blueIcon, greyIcon } from '../constants/icons';
+import { california as caCoords } from '../constants/map-coords';
 import CityList from './city-list';
 import Loading from './loading';
 import RfMap from './rf-map';
@@ -47,10 +48,11 @@ class California extends Component {
   getMap(activeApps, fundedApps, cities) {
     const layers = [activeApps, fundedApps, cities];
     const hasApps = _.every(layers, 'length');
+    const { center, zoom } = caCoords;
     return hasApps ?
       <RfMap
-        center={[37.5, -120]}
-        zoom={6}
+        center={center}
+        zoom={zoom}
         layers={this.getMapLayers(activeApps, fundedApps, cities)}
       /> :
       <Loading />
