@@ -27,4 +27,5 @@ How to run
 
     git clone
     cd app-map
+    npm install
     npm start
